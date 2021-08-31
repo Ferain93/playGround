@@ -26,3 +26,8 @@ let resultadoDivision  = numeroA / numeroB;
 
 var saludo = "¡Hola mundo!";
 
+/*Declará y asigná dos variables, una con tu nombre y la otra con tu apellido, y luego en la variable nombreCompleto guardá todo junto. Ej.: “Elon Musk”. PD: No te olvides de concatenar el espacio!*/
+
+var nombre= "Elon";
+var apellido = "Musk";
+var nombreCompleto= nombre + " "+ apellido;
