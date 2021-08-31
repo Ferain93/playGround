@@ -12,3 +12,12 @@ let peso;
 
 let  edad=27;
 let peso=66;
+
+/*Declará y asigná dos variables numeroA y numeroB , para posteriormente en las variables (¡qué tenes que definir vos!)  resultadoSuma , resultadoResta , resultadoMultiplicacion y resultadoDivision almacenar el resultado de la operación que corresponda al nombre de cada una de ellas.*/
+
+let numeroA = 10;
+let numeroB = 5;
+let resultadoSuma = numeroA + numeroB;
+let resultadoResta   = numeroA - numeroB;
+let resultadoMultiplicacion  = numeroA * numeroB;
+let resultadoDivision  = numeroA / numeroB;
