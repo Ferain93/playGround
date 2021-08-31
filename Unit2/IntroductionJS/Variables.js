@@ -35,3 +35,11 @@ var nombreCompleto= nombre + " "+ apellido;
 /*Definí una variable meGustaElHelado y asignale un valor de verdad (boolean)*/
 
 var meGustaElHelado=true;
+
+/*Defini dos variables: unNumeroChico y unNumeroGrande, y asignales valores numéricos diferentes de acuerdo a sus nombres.
+Luego definí la variable esMenor y asignale el resultado de comparar si unNumeroChico es menor que unNumeroGrande; y definí la variable esMayor, con el resultado de comparar si unNumeroChico es mayor que unNumeroGrande*/
+
+let unNumeroChico = 33;
+let unNumeroGrande = 55;
+let esMenor = unNumeroChico < unNumeroGrande;
+let esMayor = unNumeroChico > unNumeroGrande;
