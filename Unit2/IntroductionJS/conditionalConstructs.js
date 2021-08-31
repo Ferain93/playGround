@@ -42,7 +42,17 @@ function puedoIrAlBanco(diaDeLaSemana, horaActual) {
   return  10>=horaActual && horaActual<=15 && diaDeLaSemana !== "Domingo" && diaDeLaSemana !== "Sábado";
 }
 
-/**/
+/*Definí la función filosofoHipster  que tome 3 parámetros (en éste orden):
+
+La profesión de una persona(string)
+Su nacionalidad (string)
+La cantidad de kilómetros que camina por día (number)
+Y que evalúe con estos datos, si una persona es o no (true/false) un Filósofo Hipster. Tené en cuenta que un Filósofo Hipster es alguien con Nacionalidad Argentina, de profesión Músico y a quien le gusta caminar más de 2 kilómetros por día.*/
+
+function filosofoHipster(profesion,nacionality, kilo) {
+  return  profesion=="Músico" &&nacionality=="Argentina" && kilo>2;
+}
+
 /**/
 /**/
 /**/
