@@ -54,4 +54,9 @@ function longitudNombreCompleto(name, subname) {
   return resultado.length;
 }
 
-/**/
+/*Escribí la función escribirCartelito, que tome como parámetros un título, un nombre y un apellido y devuelva un único string como resultado.*/
+
+function escribirCartelito(title, name, subname) {
+  let resultado = title + " " + name + " " + subname;
+  return resultado;
+}
