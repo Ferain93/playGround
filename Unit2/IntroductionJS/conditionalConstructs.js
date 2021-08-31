@@ -34,7 +34,14 @@ function signo(num) {
   }
 }
 
-/**/
+/*Primero que todo tenemos que saber que un banco está abierto de Lunes a Viernes entre las 10 y las 15 horas.
+
+Es tu turno. Define la función puedoIrAlBanco la cual, recibiendo dos parámetros, el primero: diaDeLaSemana (string) y el segundo horaActual (number), deberá retornar true, solo si es posible ir al banco y que lo encontremos abierto.*/
+
+function puedoIrAlBanco(diaDeLaSemana, horaActual) {
+  return  10>=horaActual && horaActual<=15 && diaDeLaSemana !== "Domingo" && diaDeLaSemana !== "Sábado";
+}
+
 /**/
 /**/
 /**/
