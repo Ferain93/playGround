@@ -76,7 +76,24 @@ function esNumeroDeLaSuerte(numsuerte) {
   return numsuerte>0  && numsuerte!==15 && ( numsuerte%2==0  ||  numsuerte%3==0 );
 }
 
-/**/
+/*Escribí la función puedeJubilarse que recibe por parámetro la edad, el género y además, los años de aportes jubilatorios (en ese orden) que posee una persona, ejemplo:
+
+puedeJubilarse(62, 'F', 34);
+// Ésto da como resultado true ya que cumple con las tres condiciones. 
+Tené en cuenta que el mínimo de edad para realizar el trámite para las mujeres (género "F") es de 60 años, mientras que para los hombres (género "M") es 65. En ambos casos, se deben contar con al menos 30 años de aportes jubilatorios.*/
+
+function estaEnEdad(edad,genero){
+  let condicionalEdad= (genero=='F'&& edad>=60)||(genero=='M' && edad>=65);
+  return condicionalEdad
+}
+function tieneSuficientesAportes(aniosAporte){
+  let condicionalAporte= aniosAporte>=30;
+  return condicionalAporte
+}
+function puedeJubilarse(edad,genero,aniosAporte){
+  return  estaEnEdad(edad, genero) && tieneSuficientesAportes(aniosAporte);
+}
+
 /**/
 /**/
 /**/
