@@ -35,6 +35,17 @@ function tripleDeLaSuma(numero1, numero2) {
   return resultadoDeSuma * 3;
 }
 
-/**/
+/*Hagamos una función llamada perimetro que nos diga el perímetro de un círculo cuando le damos el radio como parámetro.
+
+Luego hagamos otra función llamada  area que nos dé el area de un círculo cuando recibe el radio como parámetro.*/
+
+let pi=3.14;
+function perimetro(radio){
+    return 2*pi*radio;
+}
+function area(radio){
+    return pi*radio*radio;
+}
+
 /**/
 /**/
