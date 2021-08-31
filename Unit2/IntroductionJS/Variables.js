@@ -21,3 +21,8 @@ let resultadoSuma = numeroA + numeroB;
 let resultadoResta   = numeroA - numeroB;
 let resultadoMultiplicacion  = numeroA * numeroB;
 let resultadoDivision  = numeroA / numeroB;
+
+/*Declará la variable saludo y asignale el texto "¡Hola mundo!".*/
+
+var saludo = "¡Hola mundo!";
+
