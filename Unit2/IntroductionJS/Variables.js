@@ -31,3 +31,7 @@ var saludo = "¡Hola mundo!";
 var nombre= "Elon";
 var apellido = "Musk";
 var nombreCompleto= nombre + " "+ apellido;
+
+/*Definí una variable meGustaElHelado y asignale un valor de verdad (boolean)*/
+
+var meGustaElHelado=true;
