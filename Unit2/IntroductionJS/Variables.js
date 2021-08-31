@@ -8,3 +8,7 @@ console.log(precio);
 let edad;
 let peso;
 
+/*Declará dos variables, una llamada edad y otra llamada peso y asignales un valor numérico.*/
+
+let  edad=27;
+let peso=66;
