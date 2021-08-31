@@ -53,7 +53,12 @@ function filosofoHipster(profesion,nacionality, kilo) {
   return  profesion=="Músico" &&nacionality=="Argentina" && kilo>2;
 }
 
-/**/
+/*Utiliza la función console.log para mostrar los resultados de ejecutar la función filosofoHipster con distintos parámetros, al menos 3 veces. La función filosofoHipster ya se encuentra definida aunque no la veas, simplemente la tenés que llamar como en el ejemplo anterior.*/
+
+console.log(filosofoHipster("Músico","Argentina",1));
+console.log(filosofoHipster("Panadero","Camboya",5));
+console.log(filosofoHipster("Camarero","Armenia",23));
+
 /**/
 /**/
 /**/
