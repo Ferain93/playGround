@@ -59,7 +59,13 @@ console.log(filosofoHipster("Músico","Argentina",1));
 console.log(filosofoHipster("Panadero","Camboya",5));
 console.log(filosofoHipster("Camarero","Armenia",23));
 
-/**/
+/*Utiliza la función console.log para mostrar los resultados de ejecutar la función pagoConTarjeta con distintos parámetros, al menos 4 veces. La función pagaConTarjeta ya se encuentra definida aunque no la veas, simplemente la tenés que llamar como en el ejemplo anterior y mostrar su resultado en consola.*/
+
+console.log(pagoConTarjeta(false, 7,3550));
+console.log(pagoConTarjeta(true, 6,84540));
+console.log(pagoConTarjeta(false, 9,2455));
+console.log(pagoConTarjeta(true, 2,754));
+
 /**/
 /**/
 /**/
