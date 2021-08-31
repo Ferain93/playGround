@@ -94,6 +94,21 @@ function puedeJubilarse(edad,genero,aniosAporte){
   return  estaEnEdad(edad, genero) && tieneSuficientesAportes(aniosAporte);
 }
 
-/**/
+/*Los requisitos para que una persona pueda subir a la atracción son:
+
+Alcanzar la altura mínima de 1.5m (o 1.2m si está acompañada por un adulto)
+No tener ninguna afección cardíaca
+Definí la función puedeSubirse, la cual, recibiendo 3 parámetros:
+
+alturaPersona (number)
+vieneConCompania (booleano)
+tieneAfeccionCardiaca (booleano)
+Retorne true  o  false  según el caso. Tené en cuenta, las condiciones necesarias, mencionadas anteriormente.*/
+
+function puedeSubirse(alturaPersona, vieneConCompania, tieneAfeccionCardiaca){
+  let resultado=(alturaPersona>=1.5|| alturaPersona>=1.2 &&  vieneConCompania== true) && (!tieneAfeccionCardiaca);  
+  return resultado
+}
+
 /**/
 /**/
