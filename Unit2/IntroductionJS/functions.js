@@ -47,5 +47,11 @@ function area(radio){
     return pi*radio*radio;
 }
 
-/**/
+/*Escribí una función longitudNombreCompleto que tome un nombre y un apellido como parametro y devuelva su longitud total, contando un espacio extra para separar a ambos.*/
+
+function longitudNombreCompleto(name, subname) {
+  let resultado = name + " " + subname;
+  return resultado.length;
+}
+
 /**/
