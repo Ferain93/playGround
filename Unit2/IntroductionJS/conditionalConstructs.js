@@ -66,7 +66,16 @@ console.log(pagoConTarjeta(true, 6,84540));
 console.log(pagoConTarjeta(false, 9,2455));
 console.log(pagoConTarjeta(true, 2,754));
 
-/**/
+/*Escribí la función esNumeroDeLaSuerte la cual recibiendo un número, le diga a Mariana si es un número de la suerte. Recuerda que el número debe cumplir con las tres condiciones mencionadas:
+
+Tiene que ser un número positivo.
+Tiene que ser múltiplo de 2 o de 3
+No tiene que ser el número 15*/
+
+function esNumeroDeLaSuerte(numsuerte) {
+  return numsuerte>0  && numsuerte!==15 && ( numsuerte%2==0  ||  numsuerte%3==0 );
+}
+
 /**/
 /**/
 /**/
