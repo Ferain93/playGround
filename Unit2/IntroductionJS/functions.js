@@ -18,7 +18,12 @@ function cuadruple(numero) {
 
 console.log(cuadruple(5));
 
-/**/
+/*Escribí la función multiplicar que tome dos parámetros, los multiplique y retorne su valor.*/
+
+function multiplicar(numero1, numero2) {
+  return numero1 * numero2;
+}
+
 /**/
 /**/
 /**/
