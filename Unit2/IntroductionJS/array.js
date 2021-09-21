@@ -19,3 +19,20 @@ console.log(seriesFavoritasDeAna);
 console.log(seriesFavoritasDeHector);
 console.log(hola);
 console.log(hola1);
+
+/*Veamos si queda claro. Mostrá por consola el valor de las variables:
+
+numerosDeLoteria
+tiradasDelDado
+salioCara
+listaDeListasDeNumeros
+Para avanzar haz un console.log de cada una de las variables.*/
+
+let numerosDeLoteria = [2, 11, 17, 32, 36, 39];
+let tiradasDelDado = [1, 6, 6, 2, 2, 4];
+let salioCara = [false, false, true, false];
+let listaDeListasDeNumeros = [[1, 6], [6, 2, 2, 4]];
+console.log(numerosDeLoteria);
+console.log(tiradasDelDado);
+console.log(salioCara);
+console.log(listaDeListasDeNumeros);
